@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  airflowdev:
+    image: airflowdev:latest
+
+    volumes:
+    - ./airflow:/opt/airflow
+
+    ports:
+     - "8080:8080"
+
+    command: airflow standalone
+
+    sleek-stamp:
+      image: bytemark/smtp
+      restart: always
