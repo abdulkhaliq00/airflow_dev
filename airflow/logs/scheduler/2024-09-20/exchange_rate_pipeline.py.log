@@ -1,0 +1,672 @@
+[2024-09-20T00:40:10.451+0000] {processor.py:186} INFO - Started process (PID=1680) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:10.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:40:10.455+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:10.454+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:10.480+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:10.476+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:40:10.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:10.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.074 seconds
+[2024-09-20T00:40:40.921+0000] {processor.py:186} INFO - Started process (PID=1685) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:40.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:40:40.928+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:40.928+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:40.961+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:40.955+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:40:40.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:40:41.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.092 seconds
+[2024-09-20T00:41:11.725+0000] {processor.py:186} INFO - Started process (PID=1690) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:11.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:41:11.729+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:11.729+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:11.757+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:11.751+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:41:11.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:11.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.068 seconds
+[2024-09-20T00:41:42.906+0000] {processor.py:186} INFO - Started process (PID=1695) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:42.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:41:42.914+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:42.913+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:42.953+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:42.946+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:41:42.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:41:43.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.121 seconds
+[2024-09-20T00:42:13.335+0000] {processor.py:186} INFO - Started process (PID=1700) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:13.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:42:13.340+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:13.339+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:13.367+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:13.362+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:42:13.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:13.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.087 seconds
+[2024-09-20T00:42:44.328+0000] {processor.py:186} INFO - Started process (PID=1705) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:44.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:42:44.333+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:44.332+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:44.361+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:44.356+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:42:44.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:42:44.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.078 seconds
+[2024-09-20T00:43:15.780+0000] {processor.py:186} INFO - Started process (PID=1710) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:15.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:43:15.785+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:15.785+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:15.813+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:15.808+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:43:15.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:15.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.081 seconds
+[2024-09-20T00:43:47.129+0000] {processor.py:186} INFO - Started process (PID=1715) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:47.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:43:47.134+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:47.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:47.163+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:47.158+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:43:47.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:43:47.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.092 seconds
+[2024-09-20T00:44:17.705+0000] {processor.py:186} INFO - Started process (PID=1720) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:17.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:44:17.710+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:17.709+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:17.742+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:17.736+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:44:17.744+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:17.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.095 seconds
+[2024-09-20T00:44:50.060+0000] {processor.py:186} INFO - Started process (PID=1726) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:50.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:44:50.064+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:50.064+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:50.098+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:50.092+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:44:50.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:44:50.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.095 seconds
+[2024-09-20T00:45:24.877+0000] {processor.py:186} INFO - Started process (PID=1748) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:24.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:45:24.881+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:24.881+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:24.918+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:24.911+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:45:24.920+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:24.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.103 seconds
+[2024-09-20T00:45:56.721+0000] {processor.py:186} INFO - Started process (PID=1754) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:56.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:45:56.728+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:56.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:56.760+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:56.754+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:45:56.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:45:56.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.093 seconds
+[2024-09-20T00:46:27.317+0000] {processor.py:186} INFO - Started process (PID=1760) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:27.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:46:27.322+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:27.321+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:27.351+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:27.345+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:46:27.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:27.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.092 seconds
+[2024-09-20T00:46:57.816+0000] {processor.py:186} INFO - Started process (PID=1766) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:57.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:46:57.820+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:57.820+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:57.849+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:57.843+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:46:57.851+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:46:57.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.081 seconds
+[2024-09-20T00:47:30.925+0000] {processor.py:186} INFO - Started process (PID=1773) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:47:30.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:47:30.930+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:30.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:47:30.959+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:30.954+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:47:30.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:47:30.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.078 seconds
+[2024-09-20T00:48:01.208+0000] {processor.py:186} INFO - Started process (PID=1779) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:01.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:48:01.213+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:01.211+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:01.242+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:01.237+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:48:01.245+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:01.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.095 seconds
+[2024-09-20T00:48:31.859+0000] {processor.py:186} INFO - Started process (PID=1785) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:31.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:48:31.864+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:31.864+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:31.894+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:31.889+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:48:31.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:48:31.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.088 seconds
+[2024-09-20T00:49:03.019+0000] {processor.py:186} INFO - Started process (PID=1791) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:03.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:49:03.024+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:03.024+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:03.054+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:03.048+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:49:03.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:03.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.084 seconds
+[2024-09-20T00:49:34.442+0000] {processor.py:186} INFO - Started process (PID=1797) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:34.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:49:34.448+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:34.448+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:34.484+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:34.476+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:49:34.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:49:34.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.107 seconds
+[2024-09-20T00:50:05.347+0000] {processor.py:186} INFO - Started process (PID=1803) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:05.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:50:05.351+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:05.351+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:05.380+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:05.375+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:50:05.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:05.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.089 seconds
+[2024-09-20T00:50:36.068+0000] {processor.py:186} INFO - Started process (PID=1809) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:36.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:50:36.074+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:36.074+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:36.113+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:36.106+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:50:36.116+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:50:36.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.156 seconds
+[2024-09-20T00:51:06.706+0000] {processor.py:186} INFO - Started process (PID=1815) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:06.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:51:06.711+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:06.711+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:06.749+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:06.742+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:51:06.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:06.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.103 seconds
+[2024-09-20T00:51:38.475+0000] {processor.py:186} INFO - Started process (PID=1821) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:38.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:51:38.479+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:38.479+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:38.508+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:38.503+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:51:38.511+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:51:38.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.091 seconds
+[2024-09-20T00:52:09.147+0000] {processor.py:186} INFO - Started process (PID=1827) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:09.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:52:09.152+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:09.151+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:09.182+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:09.176+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:52:09.184+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:09.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.097 seconds
+[2024-09-20T00:52:39.756+0000] {processor.py:186} INFO - Started process (PID=1833) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:39.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:52:39.761+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:39.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:39.793+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:39.787+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:52:39.796+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:52:39.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.092 seconds
+[2024-09-20T00:53:10.281+0000] {processor.py:186} INFO - Started process (PID=1839) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:10.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:53:10.285+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:10.285+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:10.312+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:10.308+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:53:10.314+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:10.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.085 seconds
+[2024-09-20T00:53:41.411+0000] {processor.py:186} INFO - Started process (PID=1845) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:41.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:53:41.415+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:41.415+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:41.444+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:41.439+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:53:41.446+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:53:41.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.079 seconds
+[2024-09-20T00:54:12.626+0000] {processor.py:186} INFO - Started process (PID=1851) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:12.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:54:12.631+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:12.630+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:12.659+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:12.654+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:54:12.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:12.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.083 seconds
+[2024-09-20T00:54:43.494+0000] {processor.py:186} INFO - Started process (PID=1857) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:43.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:54:43.499+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:43.499+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:43.533+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:43.526+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:54:43.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:54:43.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.091 seconds
+[2024-09-20T00:55:14.535+0000] {processor.py:186} INFO - Started process (PID=1863) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:14.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:55:14.540+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:14.539+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:14.574+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:14.567+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:55:14.576+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:14.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.091 seconds
+[2024-09-20T00:55:45.455+0000] {processor.py:186} INFO - Started process (PID=1869) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:45.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:55:45.463+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:45.463+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:45.503+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:45.495+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:55:45.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:55:45.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.106 seconds
+[2024-09-20T00:56:16.369+0000] {processor.py:186} INFO - Started process (PID=1875) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:16.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:56:16.374+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:16.373+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:16.402+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:16.396+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:56:16.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:16.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.077 seconds
+[2024-09-20T00:56:47.228+0000] {processor.py:186} INFO - Started process (PID=1881) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:47.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:56:47.231+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:47.231+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:47.262+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:47.256+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:56:47.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:56:47.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.092 seconds
+[2024-09-20T00:57:18.098+0000] {processor.py:186} INFO - Started process (PID=1888) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:18.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:57:18.103+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:18.102+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:18.135+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:18.128+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:57:18.137+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:18.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.084 seconds
+[2024-09-20T00:57:49.015+0000] {processor.py:186} INFO - Started process (PID=1894) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:49.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:57:49.021+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:49.021+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:49.050+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:49.045+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:57:49.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:57:49.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.100 seconds
+[2024-09-20T00:58:20.203+0000] {processor.py:186} INFO - Started process (PID=1900) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:20.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:58:20.208+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:20.207+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:20.235+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:20.230+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:58:20.237+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:20.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.087 seconds
+[2024-09-20T00:58:51.071+0000] {processor.py:186} INFO - Started process (PID=1906) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:51.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:58:51.076+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:51.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:51.107+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:51.101+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:58:51.110+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:58:51.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.094 seconds
+[2024-09-20T00:59:22.024+0000] {processor.py:186} INFO - Started process (PID=1912) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:22.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:59:22.028+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:22.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:22.061+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:22.055+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:59:22.063+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:22.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.091 seconds
+[2024-09-20T00:59:52.500+0000] {processor.py:186} INFO - Started process (PID=1919) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:52.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T00:59:52.504+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:52.504+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:52.531+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:52.526+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T00:59:52.534+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T00:59:52.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.081 seconds
+[2024-09-20T01:00:22.804+0000] {processor.py:186} INFO - Started process (PID=1926) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:22.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:00:22.811+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:22.810+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:22.839+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:22.833+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:00:22.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:22.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.088 seconds
+[2024-09-20T01:00:53.300+0000] {processor.py:186} INFO - Started process (PID=1933) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:53.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:00:53.305+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:53.305+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:53.331+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:53.325+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:00:53.334+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:00:53.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.093 seconds
+[2024-09-20T01:01:23.851+0000] {processor.py:186} INFO - Started process (PID=1940) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:23.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:01:23.855+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:23.854+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:23.883+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:23.877+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:01:23.886+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:23.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.094 seconds
+[2024-09-20T01:01:55.538+0000] {processor.py:186} INFO - Started process (PID=1947) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:55.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:01:55.542+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:55.542+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:55.569+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:55.564+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:01:55.572+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:01:55.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.079 seconds
+[2024-09-20T01:02:26.167+0000] {processor.py:186} INFO - Started process (PID=1954) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:26.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:02:26.172+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:26.172+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:26.197+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:26.192+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:02:26.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:26.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.084 seconds
+[2024-09-20T01:02:56.761+0000] {processor.py:186} INFO - Started process (PID=1961) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:56.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:02:56.765+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:56.765+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:56.789+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:56.784+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:02:56.792+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:02:56.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.084 seconds
+[2024-09-20T01:03:27.514+0000] {processor.py:186} INFO - Started process (PID=1968) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:27.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:03:27.524+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:27.523+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:27.575+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:27.567+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:03:27.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:27.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.138 seconds
+[2024-09-20T01:03:58.388+0000] {processor.py:186} INFO - Started process (PID=1975) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:58.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:03:58.397+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:58.395+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:58.441+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:58.429+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:03:58.445+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:03:58.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.149 seconds
+[2024-09-20T01:04:29.611+0000] {processor.py:186} INFO - Started process (PID=1982) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:04:29.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-09-20T01:04:29.616+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:04:29.616+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:04:29.641+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:04:29.635+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/exchange_rate_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/exchange_rate_pipeline.py", line 7, in <module>
+    from clean_data import clean_data
+ModuleNotFoundError: No module named 'clean_data'
+[2024-09-20T01:04:29.643+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-09-20T01:04:29.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.075 seconds

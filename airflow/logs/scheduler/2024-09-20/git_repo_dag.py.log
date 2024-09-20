@@ -1,0 +1,672 @@
+[2024-09-20T00:40:07.457+0000] {processor.py:186} INFO - Started process (PID=1678) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:07.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:40:07.469+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:07.468+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:07.498+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:07.492+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:40:07.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:07.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.093 seconds
+[2024-09-20T00:40:38.129+0000] {processor.py:186} INFO - Started process (PID=1683) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:38.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:40:38.133+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:38.132+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:38.159+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:40:38.153+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:40:38.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:40:38.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.080 seconds
+[2024-09-20T00:41:09.187+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:09.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:41:09.190+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:09.190+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:09.207+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:09.203+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:41:09.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:09.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.066 seconds
+[2024-09-20T00:41:40.029+0000] {processor.py:186} INFO - Started process (PID=1693) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:40.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:41:40.036+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:40.035+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:40.070+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:41:40.063+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:41:40.074+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:41:40.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.104 seconds
+[2024-09-20T00:42:10.472+0000] {processor.py:186} INFO - Started process (PID=1698) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:10.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:42:10.476+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:10.476+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:10.499+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:10.494+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:42:10.501+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:10.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.086 seconds
+[2024-09-20T00:42:41.187+0000] {processor.py:186} INFO - Started process (PID=1703) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:41.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:42:41.191+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:41.191+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:41.214+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:42:41.209+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:42:41.217+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:42:41.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.085 seconds
+[2024-09-20T00:43:11.813+0000] {processor.py:186} INFO - Started process (PID=1708) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:11.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:43:11.818+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:11.817+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:11.840+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:11.835+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:43:11.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:11.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.083 seconds
+[2024-09-20T00:43:42.141+0000] {processor.py:186} INFO - Started process (PID=1713) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:42.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:43:42.147+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:42.146+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:42.169+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:43:42.164+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:43:42.172+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:43:42.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.079 seconds
+[2024-09-20T00:44:12.884+0000] {processor.py:186} INFO - Started process (PID=1718) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:12.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:44:12.889+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:12.888+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:12.912+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:12.907+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:44:12.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:12.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.082 seconds
+[2024-09-20T00:44:43.462+0000] {processor.py:186} INFO - Started process (PID=1723) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:43.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:44:43.468+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:43.467+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:43.495+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:44:43.489+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:44:43.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:44:43.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.098 seconds
+[2024-09-20T00:45:22.854+0000] {processor.py:186} INFO - Started process (PID=1746) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:22.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:45:22.859+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:22.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:22.888+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:22.881+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:45:22.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:22.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.095 seconds
+[2024-09-20T00:45:53.905+0000] {processor.py:186} INFO - Started process (PID=1752) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:53.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:45:53.910+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:53.909+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:53.933+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:45:53.927+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:45:53.936+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:45:53.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.088 seconds
+[2024-09-20T00:46:25.286+0000] {processor.py:186} INFO - Started process (PID=1758) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:25.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:46:25.291+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:25.290+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:25.317+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:25.311+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:46:25.320+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:25.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.088 seconds
+[2024-09-20T00:46:56.095+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:56.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:46:56.099+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:56.099+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:56.120+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:46:56.115+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:46:56.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:46:56.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.079 seconds
+[2024-09-20T00:47:26.932+0000] {processor.py:186} INFO - Started process (PID=1770) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:26.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:47:26.937+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:26.937+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:26.960+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:26.954+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:47:26.962+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:27.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.076 seconds
+[2024-09-20T00:47:57.296+0000] {processor.py:186} INFO - Started process (PID=1776) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:57.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:47:57.302+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:57.301+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:57.324+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:47:57.318+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:47:57.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:47:57.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.080 seconds
+[2024-09-20T00:48:27.662+0000] {processor.py:186} INFO - Started process (PID=1782) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:27.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:48:27.667+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:27.666+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:27.696+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:27.688+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:48:27.700+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:27.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.091 seconds
+[2024-09-20T00:48:58.178+0000] {processor.py:186} INFO - Started process (PID=1788) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:58.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:48:58.182+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:58.182+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:58.207+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:48:58.200+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:48:58.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:48:58.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.079 seconds
+[2024-09-20T00:49:28.555+0000] {processor.py:186} INFO - Started process (PID=1794) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:28.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:49:28.561+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:28.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:28.582+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:28.577+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:49:28.584+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:28.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.085 seconds
+[2024-09-20T00:49:58.910+0000] {processor.py:186} INFO - Started process (PID=1800) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:58.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:49:58.914+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:58.913+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:58.934+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:49:58.929+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:49:58.936+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:49:58.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.079 seconds
+[2024-09-20T00:50:29.297+0000] {processor.py:186} INFO - Started process (PID=1806) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:50:29.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:50:29.301+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:29.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:50:29.325+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:50:29.319+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:50:29.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:50:29.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.089 seconds
+[2024-09-20T00:51:01.045+0000] {processor.py:186} INFO - Started process (PID=1812) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:01.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:51:01.050+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:01.049+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:01.075+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:01.069+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:51:01.077+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:01.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.089 seconds
+[2024-09-20T00:51:31.627+0000] {processor.py:186} INFO - Started process (PID=1818) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:31.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:51:31.632+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:31.631+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:31.654+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:51:31.649+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:51:31.657+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:51:31.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.085 seconds
+[2024-09-20T00:52:02.191+0000] {processor.py:186} INFO - Started process (PID=1824) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:02.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:52:02.195+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:02.195+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:02.218+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:02.213+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:52:02.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:02.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.084 seconds
+[2024-09-20T00:52:32.352+0000] {processor.py:186} INFO - Started process (PID=1830) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:32.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:52:32.356+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:32.356+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:32.380+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:52:32.374+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:52:32.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:52:32.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.092 seconds
+[2024-09-20T00:53:03.152+0000] {processor.py:186} INFO - Started process (PID=1836) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:03.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:53:03.157+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:03.156+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:03.181+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:03.175+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:53:03.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:03.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.079 seconds
+[2024-09-20T00:53:33.733+0000] {processor.py:186} INFO - Started process (PID=1842) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:33.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:53:33.737+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:33.737+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:33.760+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:53:33.755+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:53:33.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:53:33.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.083 seconds
+[2024-09-20T00:54:04.277+0000] {processor.py:186} INFO - Started process (PID=1848) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:04.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:54:04.282+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:04.281+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:04.305+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:04.300+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:54:04.307+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:04.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.084 seconds
+[2024-09-20T00:54:34.610+0000] {processor.py:186} INFO - Started process (PID=1854) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:34.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:54:34.614+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:34.614+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:34.636+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:54:34.631+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:54:34.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:54:34.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.084 seconds
+[2024-09-20T00:55:05.202+0000] {processor.py:186} INFO - Started process (PID=1860) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:05.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:55:05.207+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:05.207+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:05.232+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:05.226+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:55:05.234+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:05.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.090 seconds
+[2024-09-20T00:55:35.673+0000] {processor.py:186} INFO - Started process (PID=1866) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:35.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:55:35.678+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:35.678+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:35.704+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:55:35.698+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:55:35.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:55:35.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.096 seconds
+[2024-09-20T00:56:06.087+0000] {processor.py:186} INFO - Started process (PID=1872) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:06.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:56:06.093+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:06.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:06.118+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:06.113+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:56:06.121+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:06.175+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.095 seconds
+[2024-09-20T00:56:36.994+0000] {processor.py:186} INFO - Started process (PID=1878) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:36.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:56:37.006+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:37.005+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:37.036+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:56:37.028+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:56:37.041+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:56:37.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.113 seconds
+[2024-09-20T00:57:07.825+0000] {processor.py:186} INFO - Started process (PID=1885) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:07.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:57:07.845+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:07.844+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:07.866+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:07.861+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:57:07.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:07.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.130 seconds
+[2024-09-20T00:57:38.747+0000] {processor.py:186} INFO - Started process (PID=1891) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:38.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:57:38.751+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:38.751+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:38.777+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:57:38.770+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:57:38.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:57:38.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.100 seconds
+[2024-09-20T00:58:09.909+0000] {processor.py:186} INFO - Started process (PID=1897) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:09.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:58:09.915+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:09.915+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:09.941+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:09.935+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:58:09.944+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:09.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.088 seconds
+[2024-09-20T00:58:40.789+0000] {processor.py:186} INFO - Started process (PID=1903) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:40.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:58:40.793+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:40.793+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:40.816+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:58:40.811+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:58:40.818+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:58:40.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.082 seconds
+[2024-09-20T00:59:11.721+0000] {processor.py:186} INFO - Started process (PID=1909) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:11.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:59:11.726+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:11.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:11.752+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:11.746+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:59:11.755+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:11.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.091 seconds
+[2024-09-20T00:59:42.705+0000] {processor.py:186} INFO - Started process (PID=1915) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:42.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T00:59:42.710+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:42.710+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:42.734+0000] {logging_mixin.py:190} INFO - [2024-09-20T00:59:42.729+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T00:59:42.737+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T00:59:42.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.089 seconds
+[2024-09-20T01:00:13.483+0000] {processor.py:186} INFO - Started process (PID=1922) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:13.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:00:13.488+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:13.488+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:13.511+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:13.505+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:00:13.514+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:13.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.089 seconds
+[2024-09-20T01:00:43.741+0000] {processor.py:186} INFO - Started process (PID=1929) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:43.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:00:43.746+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:43.746+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:43.773+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:00:43.767+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:00:43.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:00:43.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.087 seconds
+[2024-09-20T01:01:14.051+0000] {processor.py:186} INFO - Started process (PID=1936) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:14.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:01:14.059+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:14.058+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:14.086+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:14.078+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:01:14.089+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:14.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.102 seconds
+[2024-09-20T01:01:44.949+0000] {processor.py:186} INFO - Started process (PID=1944) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:44.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:01:44.954+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:44.953+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:44.978+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:01:44.971+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:01:44.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:01:45.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.089 seconds
+[2024-09-20T01:02:15.920+0000] {processor.py:186} INFO - Started process (PID=1951) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:15.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:02:15.925+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:15.924+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:15.952+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:15.946+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:02:15.954+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:15.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.083 seconds
+[2024-09-20T01:02:46.853+0000] {processor.py:186} INFO - Started process (PID=1958) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:46.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:02:46.858+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:46.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:46.885+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:02:46.878+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:02:46.889+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:02:46.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.098 seconds
+[2024-09-20T01:03:17.783+0000] {processor.py:186} INFO - Started process (PID=1965) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:17.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:03:17.794+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:17.793+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:17.930+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:17.907+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:03:17.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:18.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.264 seconds
+[2024-09-20T01:03:49.089+0000] {processor.py:186} INFO - Started process (PID=1972) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:49.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:03:49.093+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:49.092+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:49.115+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:03:49.109+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:03:49.117+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:03:49.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.074 seconds
+[2024-09-20T01:04:19.254+0000] {processor.py:186} INFO - Started process (PID=1979) to work on /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:04:19.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2024-09-20T01:04:19.258+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:04:19.258+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:04:19.281+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:04:19.275+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2024-09-20T01:04:19.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2024-09-20T01:04:19.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.076 seconds
