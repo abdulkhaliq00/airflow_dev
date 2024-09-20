@@ -90,3 +90,38 @@
 [2024-09-20T01:05:13.160+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:05:13.158+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-20T01:05:13.193+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:05:13.193+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
 [2024-09-20T01:05:13.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.172 seconds
+[2024-09-20T01:05:43.638+0000] {processor.py:186} INFO - Started process (PID=1999) to work on /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:05:43.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xrate_to_s3.py for tasks to queue
+[2024-09-20T01:05:43.643+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:05:43.642+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:05:43.668+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:05:43.710+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:05:43.710+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:05:43.747+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:05:43.746+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
+[2024-09-20T01:05:43.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.191 seconds
+[2024-09-20T01:06:14.204+0000] {processor.py:186} INFO - Started process (PID=2006) to work on /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:14.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xrate_to_s3.py for tasks to queue
+[2024-09-20T01:06:14.209+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:14.208+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:14.237+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:14.273+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:14.272+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:06:14.314+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:14.313+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
+[2024-09-20T01:06:14.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.199 seconds
+[2024-09-20T01:06:45.130+0000] {processor.py:186} INFO - Started process (PID=2013) to work on /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:45.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xrate_to_s3.py for tasks to queue
+[2024-09-20T01:06:45.134+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:45.134+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:45.160+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:06:45.190+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:45.190+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:06:45.223+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:06:45.223+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
+[2024-09-20T01:06:45.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.157 seconds
+[2024-09-20T01:07:15.912+0000] {processor.py:186} INFO - Started process (PID=2020) to work on /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:15.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xrate_to_s3.py for tasks to queue
+[2024-09-20T01:07:15.918+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:15.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:15.948+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:15.987+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:15.986+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:07:16.022+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:16.022+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
+[2024-09-20T01:07:16.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.195 seconds
+[2024-09-20T01:07:46.695+0000] {processor.py:186} INFO - Started process (PID=2027) to work on /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:46.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xrate_to_s3.py for tasks to queue
+[2024-09-20T01:07:46.700+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:46.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:46.728+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/xrate_to_s3.py
+[2024-09-20T01:07:46.783+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:46.782+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:07:46.829+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:07:46.829+0000] {dag.py:4156} INFO - Setting next_dagrun for xrate_to_s3 to 2024-09-19 23:00:00+00:00, run_after=2024-09-20 23:00:00+00:00
+[2024-09-20T01:07:46.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xrate_to_s3.py took 0.220 seconds
