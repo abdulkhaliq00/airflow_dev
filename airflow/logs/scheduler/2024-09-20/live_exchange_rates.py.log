@@ -383,3 +383,10 @@
 [2024-09-20T01:08:03.561+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:03.561+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-20T01:08:03.594+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:03.593+0000] {dag.py:4156} INFO - Setting next_dagrun for live_exchange_rates to 2024-09-19 21:00:00+00:00, run_after=2024-09-20 21:00:00+00:00
 [2024-09-20T01:08:03.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rates.py took 0.181 seconds
+[2024-09-20T01:08:34.306+0000] {processor.py:186} INFO - Started process (PID=2037) to work on /opt/airflow/dags/live_exchange_rates.py
+[2024-09-20T01:08:34.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rates.py for tasks to queue
+[2024-09-20T01:08:34.311+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:34.310+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rates.py
+[2024-09-20T01:08:34.342+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rates.py
+[2024-09-20T01:08:34.373+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:34.373+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:08:34.401+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:34.401+0000] {dag.py:4156} INFO - Setting next_dagrun for live_exchange_rates to 2024-09-19 21:00:00+00:00, run_after=2024-09-20 21:00:00+00:00
+[2024-09-20T01:08:34.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rates.py took 0.172 seconds

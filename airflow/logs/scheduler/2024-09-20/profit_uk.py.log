@@ -390,3 +390,10 @@
 [2024-09-20T01:08:02.215+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:02.215+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-20T01:08:02.244+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:02.244+0000] {dag.py:4156} INFO - Setting next_dagrun for load_profit_uk to 2024-09-19 21:00:00+00:00, run_after=2024-09-20 21:00:00+00:00
 [2024-09-20T01:08:02.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/profit_uk.py took 0.171 seconds
+[2024-09-20T01:08:32.966+0000] {processor.py:186} INFO - Started process (PID=2036) to work on /opt/airflow/dags/profit_uk.py
+[2024-09-20T01:08:32.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/profit_uk.py for tasks to queue
+[2024-09-20T01:08:32.971+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:32.970+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/profit_uk.py
+[2024-09-20T01:08:33.012+0000] {processor.py:925} INFO - DAG(s) 'load_profit_uk' retrieved from /opt/airflow/dags/profit_uk.py
+[2024-09-20T01:08:33.043+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:33.043+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-20T01:08:33.073+0000] {logging_mixin.py:190} INFO - [2024-09-20T01:08:33.072+0000] {dag.py:4156} INFO - Setting next_dagrun for load_profit_uk to 2024-09-19 21:00:00+00:00, run_after=2024-09-20 21:00:00+00:00
+[2024-09-20T01:08:33.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/profit_uk.py took 0.183 seconds
